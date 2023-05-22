@@ -1,18 +1,20 @@
 package com.fxytb.devtools.utils;
 
+import com.fxytb.devtools.model.MinioObject;
 import com.google.common.collect.Lists;
 import io.minio.*;
 import io.minio.messages.Bucket;
 import io.minio.messages.Item;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.tika.Tika;
-import www.com.fxytb.devtools.model.MinioObject;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.fxytb.devtools.enums.MinioOperationStatusEnum.*;
 
 
 @Slf4j
