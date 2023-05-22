@@ -14,17 +14,17 @@ dev-tools:
 依赖如下
 ```xml
 <dependency>
-    <groupId>www.fxytb.com</groupId>
+    <groupId>com.fxytb</groupId>
     <artifactId>dev-tools-core</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 </dependency>
 <dependency>
-    <groupId>www.fxytb.com</groupId>
+    <groupId>com.fxytb</groupId>
     <artifactId>dev-tools-configuration</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 </dependency>
 <dependency>
-    <groupId>www.fxytb.com</groupId>
+    <groupId>com.fxytb</groupId>
     <artifactId>dev-tools-model</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 </dependency>
