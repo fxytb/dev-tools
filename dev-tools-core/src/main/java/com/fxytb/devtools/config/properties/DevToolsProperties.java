@@ -1,4 +1,4 @@
-package www.fxytb.com.devtools.config.properties;
+package com.fxytb.devtools.config.properties;
 
 
 import lombok.Data;

@@ -1,4 +1,4 @@
-package www.fxytb.com.devtools.enums;
+package com.fxytb.devtools.enums;
 
 import lombok.Getter;
 

@@ -1,4 +1,4 @@
-package www.fxytb.com.devtools.model;
+package com.fxytb.devtools.model;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

@@ -1,10 +1,10 @@
-package www.fxytb.com.devtools.provider;
+package com.fxytb.devtools.provider;
 
 import io.minio.MinioClient;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
-import www.fxytb.com.devtools.config.properties.DevToolsProperties;
+import www.com.devtools.config.properties.DevToolsProperties;
 
 @Component
 public class MinioClientProvider {

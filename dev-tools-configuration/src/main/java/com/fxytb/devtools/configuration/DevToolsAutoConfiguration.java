@@ -1,9 +1,9 @@
-package www.fxytb.com.devtools.configuration;
+package com.fxytb.devtools.configuration;
 
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.ComponentScan;
-import www.fxytb.com.devtools.config.properties.DevToolsProperties;
+import www.com.devtools.config.properties.DevToolsProperties;
 
-@ComponentScan("www.fxytb.com.devtools")
+@ComponentScan("com.fxytb.devtools")
 @EnableConfigurationProperties(value = DevToolsProperties.class)
 public class DevToolsAutoConfiguration {}
