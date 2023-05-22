@@ -11,3 +11,16 @@ dev-tools:
     accessKey: minio accessKey
     secretKey: minio secretKey
 ```
+依赖如下
+```xml
+<dependency>
+    <groupId>www.fxytb.com</groupId>
+    <artifactId>dev-tools-core</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+</dependency>
+<dependency>
+    <groupId>www.fxytb.com</groupId>
+    <artifactId>dev-tools-configuration</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+</dependency>
+```
