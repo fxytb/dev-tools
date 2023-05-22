@@ -23,4 +23,9 @@ dev-tools:
     <artifactId>dev-tools-configuration</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 </dependency>
+<dependency>
+    <groupId>www.fxytb.com</groupId>
+    <artifactId>dev-tools-model</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+</dependency>
 ```
