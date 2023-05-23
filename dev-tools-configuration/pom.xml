@@ -26,7 +26,7 @@
         <dependency>
             <groupId>com.fxytb</groupId>
             <artifactId>dev-tools-core</artifactId>
-            <version>1.0.2-RELEASE</version>
+            <version>${revision}</version>
         </dependency>
     </dependencies>
 </project>

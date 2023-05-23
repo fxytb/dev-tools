@@ -22,7 +22,7 @@
         <dependency>
             <groupId>com.fxytb</groupId>
             <artifactId>dev-tools-model</artifactId>
-            <version>1.0.2-RELEASE</version>
+            <version>${revision}</version>
         </dependency>
         <!--minio相关依赖-->
         <dependency>
@@ -34,6 +34,11 @@
             <groupId>org.apache.tika</groupId>
             <artifactId>tika-core</artifactId>
             <version>1.27</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>4.11.0</version>
         </dependency>
         <!--spring-boot相关依赖-->
         <dependency>
