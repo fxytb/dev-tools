@@ -16,11 +16,11 @@ dev-tools:
 <dependency>
     <groupId>com.fxytb</groupId>
     <artifactId>dev-tools-core</artifactId>
-    <version>1.0.1-RELEASE</version>
+    <version>1.0.0</version>
 </dependency>
 <dependency>
     <groupId>com.fxytb</groupId>
     <artifactId>dev-tools-configuration</artifactId>
-    <version>1.0.1-RELEASE</version>
+    <version>1.0.0</version>
 </dependency>
 ```
