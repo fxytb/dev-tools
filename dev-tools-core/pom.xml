@@ -6,8 +6,7 @@
     <parent>
         <groupId>com.fxytb</groupId>
         <artifactId>dev-tools</artifactId>
-        <version>${revision}</version>
-        <relativePath>../pom.xml</relativePath>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>dev-tools-core</artifactId>
@@ -22,7 +21,7 @@
         <dependency>
             <groupId>com.fxytb</groupId>
             <artifactId>dev-tools-model</artifactId>
-            <version>${revision}</version>
+            <version>1.0.0</version>
         </dependency>
         <!--minio相关依赖-->
         <dependency>

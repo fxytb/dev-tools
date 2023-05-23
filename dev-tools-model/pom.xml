@@ -6,8 +6,7 @@
     <parent>
         <groupId>com.fxytb</groupId>
         <artifactId>dev-tools</artifactId>
-        <version>${revision}</version>
-        <relativePath>../pom.xml</relativePath>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>dev-tools-model</artifactId>

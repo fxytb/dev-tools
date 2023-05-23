@@ -3,6 +3,9 @@
 
 # Log file
 *.log
+*.pom
+*.asc
+*.versionBackup
 
 # BlueJ files
 *.ctxt
