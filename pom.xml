@@ -1,17 +1,32 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <!--gav信息-->
-    <groupId>com.fxytb</groupId>
-    <artifactId>dev-tools</artifactId>
-    <version>1.0.0</version>
-    <packaging>pom</packaging>
 
+    <!--父依赖-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.7.12</version>
     </parent>
+
+    <!--项目结构-->
+    <modules>
+        <module>dev-tools-model</module>
+        <module>dev-tools-configuration</module>
+        <module>dev-tools-core</module>
+    </modules>
+
+    <!--属性配置-->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <gpg.keyname>0x0CA39BB5</gpg.keyname>
+    </properties>
+
+    <!--gav信息-->
+    <groupId>com.fxytb</groupId>
+    <artifactId>dev-tools</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <!--项目信息...-->
     <name>dev-tools</name>
@@ -47,25 +62,7 @@
         <url>https://github.com/fxytb/dev-tools</url>
     </scm>
 
-    <modules>
-        <module>dev-tools-model</module>
-        <module>dev-tools-configuration</module>
-        <module>dev-tools-core</module>
-    </modules>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-<!--        <revision>1.0.1-RELEASE</revision>-->
-        <gpg.keyname>0x0CA39BB5</gpg.keyname>
-    </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
-        </dependency>
-    </dependencies>
+    <!--中央仓库地址-->
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
@@ -76,6 +73,17 @@
             <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
+
+    <!--公共依赖-->
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+        </dependency>
+    </dependencies>
+
+    <!--插件-->
     <build>
         <plugins>
             <plugin>
