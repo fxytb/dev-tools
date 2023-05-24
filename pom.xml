@@ -10,13 +10,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.13.RELEASE</version>
+        <version>2.7.12</version>
     </parent>
 
     <!--项目信息...-->
     <name>dev-tools</name>
     <description>java开发工具包</description>
-    <url>https://github.com/fuxinyu0224/dev-tools</url>
+    <url>https://github.com/fxytb/dev-tools</url>
 
     <!--开源协议...-->
     <licenses>
@@ -42,9 +42,9 @@
 
     <!--项目在github或其它托管平台的地址-->
     <scm>
-        <connection>https://github.com/fuxinyu0224/dev-tools.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:fuxinyu0224/dev-tools.git</developerConnection>
-        <url>https://github.com/fuxinyu0224/dev-tools</url>
+        <connection>https://github.com/fxytb/dev-tools.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:fxytb/dev-tools.git</developerConnection>
+        <url>https://github.com/fxytb/dev-tools</url>
     </scm>
 
     <modules>
