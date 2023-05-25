@@ -15,12 +15,7 @@ dev-tools:
 ```xml
 <dependency>
     <groupId>com.fxytb</groupId>
-    <artifactId>dev-tools-core</artifactId>
-    <version>1.0.0</version>
-</dependency>
-<dependency>
-    <groupId>com.fxytb</groupId>
     <artifactId>dev-tools-configuration</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
 </dependency>
 ```

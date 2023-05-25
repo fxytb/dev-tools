@@ -6,7 +6,7 @@
 *.pom
 *.asc
 pom.xml.versionsBackup
-
+.flattened-pom.xml
 
 # BlueJ files
 *.ctxt
